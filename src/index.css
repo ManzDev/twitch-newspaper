@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Chomsky;
+  src:
+    url("fonts/chomsky.woff2") format("woff2"),
+    url("fonts/chomsky.woff") format("woff"),
+    url("fonts/chomsky.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  src:
+    url("fonts/libre-baskerville.woff2") format("woff2"),
+    url("fonts/libre-baskerville.woff") format("woff"),
+    url("fonts/libre-baskerville.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "League Gothic";
+  src:
+    url("fonts/league-gothic.woff2") format("woff2"),
+    url("fonts/league-gothic.woff") format("woff"),
+    url("fonts/league-gothic.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Linux Libertine";
+  src:
+    url("fonts/linux-libertine.woff2") format("woff2"),
+    url("fonts/linux-libertine.woff") format("woff"),
+    url("fonts/linux-libertine.ttf") format("truetype");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  background: #a09277;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
